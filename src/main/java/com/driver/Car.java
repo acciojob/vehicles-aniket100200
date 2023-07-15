@@ -41,17 +41,17 @@ public class Car extends Vehicle {
 
     public int getDoors()
     {
-        return doors;
+        return this.doors;
     }
 
     public int getWheels()
     {
-        return wheels;
+        return this.wheels;
     }
 
     public int getGears()
     {
-        return gears;
+        return this.gears;
     }
 
     public boolean isManual(){
@@ -59,12 +59,12 @@ public class Car extends Vehicle {
     }
 
     public String getType() {
-        return type;
+        return this.type;
     }
 
     public int getCurrentGear()
     {
-        return currentGear;
+        return this.currentGear;
     }
 
     public int getSeats()
