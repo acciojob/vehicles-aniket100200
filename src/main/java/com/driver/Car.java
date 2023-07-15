@@ -67,5 +67,10 @@ public class Car extends Vehicle {
         return currentGear;
     }
 
+    public int getSeats()
+    {
+        return this.seats;
+    }
+
 
 }
