@@ -4,6 +4,10 @@ public class Boat implements WaterVehicle
 {
     private String name;
     private int capcity;
+    public Boat()
+    {
+
+    }
     public Boat(String name,int capcity)
     {
         this.name=name;
