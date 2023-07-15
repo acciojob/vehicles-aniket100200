@@ -17,4 +17,13 @@ public class Boat implements WaterVehicle
     {
         return this.capcity;
     }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public void setCapcity(int capcity) {
+        this.capcity = capcity;
+    }
 }
